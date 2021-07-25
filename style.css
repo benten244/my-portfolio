@@ -4,8 +4,6 @@
   background-color: black;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +19,12 @@
 #first-block {
     /* background-image: url("../images/philo.jpg"); */
     background-size: cover;
+    background-image: url("images/gazo.jpg");
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 500px;
     /* background-color: #ddd; */
   }
 
@@ -34,7 +33,7 @@
     background-color: #f0f0f0;
     text-align: center;
     padding-bottom: 10px;
-    height: 600px;
+    height: 650px;
   }
 
   /* 各レイアウト横並び */
@@ -57,14 +56,11 @@
   
   /* 自己紹介文字列 */
   .info-text {
-    font-size: 20px;
-    width: 70%;
+    width: 30%;
     /* /* margin-top: 20px; */
-    margin-left: 20px;
+    margin-right: 260px;
     /* margin-bottom: 20px; */ 
     color: #444;
-    display: flex;
-    justify-content: space-around;
     /* background-color: burlywood; */
     /* border-left: 5px dashed #444; */
     /* width: 30%; */
@@ -72,28 +68,54 @@
     flex-direction: column; */
   }
 
-
-  
-  /* 枠を指定している。 */
-  .profile {
-      /* position: relative;
-      margin: 40px 0 30px;
-      padding: 25px 20px 15px 40px;
-      border: 1px dotted #1b2538;
-      background-color: #f8fdff;
-      border-radius: 8px; */
-      list-style: none;
+  .topic{
+    margin-bottom: 20px;
+    font-size: 30px;
   }
 
+
+
+  .detail{
+    font-size: 20px;
+  }
+  
+
+  .detailname{
+    font-size: 20px;
+  }
+
+
+  .detailhobby{
+    font-size: 20px;
+  }
+
+
+  
+  
+  /* 枠を指定している。 */
+
+
   .profilee {
-    position: relative;
-    margin: 40px 0 30px;
-    padding: 25px 20px 15px 40px;
+    margin: 10px 0 0px;
+    padding: 10px 10px 10px 20px;
     border: 1px dotted #1b2538;
     background-color: #f8fdff;
-    border-radius: 8px;
     list-style: none;
+    transition-duration: 6s;
 }
+
+.rounded {
+  border-radius: 100px;
+}
+
+/* .profilee1 {
+  margin: 10px 0 70px;
+  padding: 10px 10px 10px 20px;
+  border: 1px dotted #1b2538;
+  background-color: #f8fdff;
+  border-radius: 8px;
+  list-style: none;
+} */
 
   /* 見出しを調整*/
   .info-title {
@@ -104,6 +126,9 @@
     text-align: center;
     /* border-bottom: 5px dashed #ffa500;  */
   }
+
+
+  /* fifth block */
 
   #fifth-block {
     background-color: floralwhite;
@@ -124,7 +149,7 @@
   
   .black-box{
     background-color: dimgrey;
-    height: 450px;
+    height: 480px;
     width: 33%;
     padding-top: 25px;
     color: floralwhite;
@@ -132,14 +157,14 @@
   
   .green-box{
     background-color: rgb(207, 226, 188);
-    height: 450px;
+    height: 480px;
     width: 33%;
     padding-top: 25px;
   }
   
   .skyblue-box{
     background-color: rgb(10, 76, 141);
-    height: 450px;
+    height: 480px;
     width: 33%;
     padding-top: 25px;
     color: floralwhite;
@@ -167,8 +192,18 @@
     margin-right: 20px;
     margin-top: 40px;
   }
+
+  /* lastsection */
+
   
-  .power-container2{
+  /* footer */
+  footer {
     display: flex;
-    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
   }
