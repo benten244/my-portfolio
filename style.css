@@ -9,6 +9,48 @@
     padding: 0;
   }
 
+  header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #6091d3;
+    padding-top: 10px;
+    z-index: 100;
+  }
+  
+  .header-title {
+    color:rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-family: Bookman, serif;
+    margin-left: 20px;
+  }
+  /* <------- headerはここまで-------> */
+  
+   
+  .slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation :slideshow 24s linear infinite;
+  }
+   
+  .slide img:nth-child(2){
+    animation-delay: 8s;
+  }
+   
+  .slide img:last-child{
+    animation-delay: 16s;
+  }
+  
+  .all{
+    position: absolute;
+    z-index: 100;
+  }
+
   h1 {
     font-size: 80px;
     font-family: serif;
