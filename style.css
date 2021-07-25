@@ -1,5 +1,10 @@
 /* 初期設定 */
 
+.black{
+  background-color: black;
+}
+
+
 
 * {
     margin: 0;
@@ -36,7 +41,7 @@
   .about-container {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row; 
     /* align-items: center; */
   }
@@ -45,7 +50,7 @@
   .event-ben {
     width: 30%;
     height: 460px;
-    margin-right: 80px;
+    margin-left: 30px;
     /* margin-bottom: 400px; */
     /* margin-left: 0px; */
   }
@@ -53,26 +58,42 @@
   /* 自己紹介文字列 */
   .info-text {
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: 140px;
-    margin-bottom: 20px;
+    width: 70%;
+    /* /* margin-top: 20px; */
+    margin-left: 20px;
+    /* margin-bottom: 20px; */ 
     color: #444;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: burlywood; */
     /* border-left: 5px dashed #444; */
     /* width: 30%; */
     /* display: flex;
     flex-direction: column; */
   }
+
+
   
   /* 枠を指定している。 */
   .profile {
-      position: relative;
+      /* position: relative;
       margin: 40px 0 30px;
       padding: 25px 20px 15px 40px;
       border: 1px dotted #1b2538;
       background-color: #f8fdff;
-      border-radius: 8px;
+      border-radius: 8px; */
       list-style: none;
   }
+
+  .profilee {
+    position: relative;
+    margin: 40px 0 30px;
+    padding: 25px 20px 15px 40px;
+    border: 1px dotted #1b2538;
+    background-color: #f8fdff;
+    border-radius: 8px;
+    list-style: none;
+}
 
   /* 見出しを調整*/
   .info-title {
@@ -82,4 +103,72 @@
     color: #444;
     text-align: center;
     /* border-bottom: 5px dashed #ffa500;  */
+  }
+
+  #fifth-block {
+    background-color: floralwhite;
+    text-align: center;
+    height: 52z0px;
+  }
+  
+  .power-container{
+    display: flex;
+  }
+  
+  .subtitle{
+    text-align: center;
+    height: 50px;
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+  
+  .black-box{
+    background-color: dimgrey;
+    height: 450px;
+    width: 33%;
+    padding-top: 25px;
+    color: floralwhite;
+  }
+  
+  .green-box{
+    background-color: rgb(207, 226, 188);
+    height: 450px;
+    width: 33%;
+    padding-top: 25px;
+  }
+  
+  .skyblue-box{
+    background-color: rgb(10, 76, 141);
+    height: 450px;
+    width: 33%;
+    padding-top: 25px;
+    color: floralwhite;
+  }
+  
+  .maintitle{
+  font-size: 30px;
+  text-align: left;
+  /* margin-top: 20px; */
+  /* text-align: left; */
+  }
+  
+  .maintheme{
+    font-size: 30px;
+  }
+  
+  .doublett{
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .font_8{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+  
+  .power-container2{
+    display: flex;
+    margin-top: 10px;
   }

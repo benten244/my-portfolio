@@ -1,0 +1,24 @@
+  <!-- ②個めのセクション -->
+    <section id="second-block">
+      <p class="info-title">
+          About me
+      </p>
+      <div class="about-container">
+          <image src="images/bentente.jpg" class="event-ben"></image>
+        
+        <div class="info-text">
+          <ul class="profilee">
+            <li>名前：梅村 剛史 (ウメムラ ツヨシ)</li>
+            <br>
+            <li>大学：中央大学 文学部 哲学専攻</li>
+            <br>
+            <li>趣味：ブログ等の物書き モノづくり </li>
+            <br>
+            <li>好きなものやこと：みんなで遊ぶ際のイベントを考えること。             
+            <br>
+            <br>
+            <li>苦手なものやこと：満員電車に乗ること(酔ってしまう) 
+          </ul>
+        </div>
+      </div>
+    </section>
